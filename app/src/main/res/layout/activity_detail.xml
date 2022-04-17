@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    tools:context=".activity.DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivUrl"
+            android:layout_width="match_parent"
+            android:layout_height="250sp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivUrl"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="25dp"
+            android:text="sample"
+            android:textColor="#FF5252"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvRealName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvName"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="sample"
+            android:textColor="#FF5252"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvRealName"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="sample"
+            android:textColor="#FF5252"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvFA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTeam"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="sample"
+            android:textColor="#FF5252"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvCreatedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvFA"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="sample"
+            android:textColor="#FF5252"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvPublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCreatedBy"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="sample"
+            android:textColor="#FF5252"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPublisher"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="sample"
+            android:textColor="#FF5252"
+            android:textSize="25dp" />
+    </RelativeLayout>
+</ScrollView>
